@@ -1,30 +1,55 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio - Léon Leroy</title>
+  <title>Léon Leroy – Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
-  <header>
-    <h1>Léon Leroy</h1>
-    <p>Développeur Python / Web</p>
-  </header>
+<header class="navbar">
+  <div class="logo">Léon Leroy</div>
+  <nav>
+    <a href="index.html" class="nav-btn">Home</a>
+    <a href="projets.html" class="nav-btn">Projects</a>
+    <a href="experience.html" class="nav-btn">Experience</a>
+    <a href="formation.html" class="nav-btn">Education</a>
+    <a href="assets/cv/Leon_Leroy_CV.pdf" class="nav-btn" download>
+  <i class="fa-solid fa-file-arrow-down"></i> CV
+</a>
+</nav>
+</header>
 
-  <section>
-    <h2>À propos</h2>
-    <p>Portfolio en cours de création.</p>
-  </section>
+<section class="hero hero-vertical">
 
-  <section>
-    <h2>Projets</h2>
-    <p>Mes projets Python seront présentés ici.</p>
-  </section>
+  <div class="card reveal float profile-card">
+    <img src="assets/images/Photo_leon.jpg" alt="Leon Leroy" class="profile-pic">
 
-  <footer>
-    <p>© 2026 – Léon Leroy</p>
-  </footer>
+    <h1 class="name">Leon <span>Leroy</span></h1>
 
+    <p class="subtitle">
+      Mechatronics Engineer · HealthTech
+    </p>
+  </div>
+
+  <div class="card reveal delay float">
+    <p>
+      Mechatronics Engineer graduated from INSA Strasbourg,
+      currently pursuing an International Research Master in HealthTech.
+
+    </p>
+  </div>
+
+</section>
+
+
+
+<script src="js/scroll.js"></script>
 </body>
 </html>
+
